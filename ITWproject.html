@@ -117,23 +117,7 @@
         </div>
     </footer>
 
-    <!-- Your additional JavaScript for responsiveness -->
-    <script>
-        function toggleClassOnWidth(element, className, width) {
-            const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
-            if (screenWidth <= width) {
-                element.classList.add(className);
-            } else {
-                element.classList.remove(className);
-            }
-        }
-
-        window.onload = window.onresize = function () {
-            const bodyElement = document.body;
-            toggleClassOnWidth(bodyElement, 'small-screen', 768);
-        };
-    </script>
+    
 
 </body>
 
